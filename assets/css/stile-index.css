@@ -86,13 +86,13 @@ main {
     align-items: center;
 }
 
-/* #sec--info {
+#sec--info {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: top;
     height: 50vh;
     width: 100%;
-} */
+}
 
 /* FOOTER */
 footer {
