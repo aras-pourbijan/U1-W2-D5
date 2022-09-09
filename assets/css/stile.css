@@ -1,0 +1,156 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1.8rem;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+h6 {
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+button {
+    background: linear-gradient(to right, #6cc1e2, #392f7a);
+    color: white;
+    height: 35px;
+}
+input {
+    height: 35px;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: grey;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0px 0px 5px #d3d3d3;
+    padding: 2%;
+    box-sizing: border-box;
+}
+#logo {
+}
+
+header ul {
+    display: none;
+    list-style-type: none;
+}
+
+i {
+    color: #e42424;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #sec--info {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    width: 100%;
+} */
+
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 30px;
+   
+}
+
+#sec--social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div {
+    padding:10%, 5%;
+}
+
+#soc--icons i {
+    padding-right: 7px;
+}
+
+#footer--news {
+    display: inline-block;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 480px) {
+    #navburger {
+        display: none;
+    }
+
+    #navbar {
+        display: inline-flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        flex-grow: 2;
+        width: 300px;
+    }
+
+    #sec--social {
+        display: flex;
+        flex-direction: row;
+}
+    #sec--social>div{
+        flex: 1 1 0px
+    }
