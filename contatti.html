@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="stylesheet" href="./assets/css/stile.css" />
+        <link rel="stylesheet" href="./assets/css/stile-contanti.css" />
 
         <script
             src="https://kit.fontawesome.com/ed897656ab.js"
             crossorigin="anonymous"
         ></script>
-        <title></title>
+        <title>Epicode - Formazione Web Developer</title>
     </head>
 
     <body>
@@ -40,16 +40,61 @@
                             <a href="http://">Contanti</a>
                         </li>
                         <li>
-                            <button>Registrati</button>
+                            <button class="btn-fix">Registrati</button>
                         </li>
                     </ul>
                 </nav>
             </header>
             <main>
-                <section id="sec--info"></section>
-                <article id="art--1">art</article>
-                <article id="art--2">art</article>
-                <section id="sec--register">reg</section>
+                <section>
+                    <h1>Contanti</h1>
+
+                    <div id="contact-box">
+                        <form action="">
+                            <input type="text" placeholder="Nome e cognome" />
+                            <input
+                                type="email"
+                                required
+                                placeholder="Indirizzo valido nome@casetta.com"
+                            />
+                            <textarea
+                                cols="30"
+                                rows="3"
+                                placeholder="scrivi in breve il tuo messaggio"
+                                maxlength="500"
+                            ></textarea>
+                            <button type="submit">Invia il messaggio</button>
+                        </form>
+
+                        <div id="info-area">
+                            <div class="sede-job">
+                                <h3>Sede formativa</h3>
+                                <address>
+                                    Via Appia 1 <br />
+                                    00100 Roma (RM)
+                                </address>
+                                <br />
+                                <a href="mailto:info@epicode.school"
+                                    >info@epicode.school</a
+                                >
+                                <br />
+                                <a href="tel:+3906123456956">
+                                    +39 06123456956</a
+                                >
+                            </div>
+                            <div class="sede-job">
+                                <h3>Lavora con noi</h3>
+                                <p>
+                                    Per poterti candidarti ad un ruolo da
+                                    docente invia il tuo CV a
+                                    <a href="mailto:job@epicode.school"
+                                        >job@epicode.school</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
             <footer>
                 <div id="sec--social">
@@ -91,8 +136,7 @@
                         </form>
                     </div>
                 </div>
-
-                <div id="footer--copy">
+                <div id="sec--copy">
                     <h6>
                         @copy 2021 Epicode Web DEveloper school - Via Appia 1,
                         00100 Roma (RM) - Tel. 06-12345678
